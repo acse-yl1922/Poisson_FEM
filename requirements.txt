@@ -1,0 +1,11 @@
+# Standard packages
+numpy
+scipy
+matplotlib
+
+# JAX for CPU-only version (useful for local development on laptops)
+# To install this CPU-only version, run the following commands:
+# pip install --upgrade pip
+# pip install --upgrade "jax[cpu]"
+# For simplicity, we'll just list "jax[cpu]" here. Remember to upgrade pip before installing.
+jax[cpu]
